@@ -49,7 +49,7 @@ const FeatureCard: FC<Feature> = ({ Icon, text }) => (
 export default function Home() {
   return (
     <main>
-      <section className='text-white p-10 bg-cyan-500 min-h-[470px] isolate'>
+      <section className='text-white p-10 bg-[#00bcd4] min-h-[470px] relative'>
         <header className='flex flex-col items-center'>
           <h1 className='text-5xl'>Travel Note</h1>
           <p className='text-xl p-5'>Store your travel experience! Open new horizons!</p>
@@ -60,7 +60,7 @@ export default function Home() {
           width={600}
           height={360}
           alt='Devices'
-          className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'
+          className='absolute -bottom-[100px] max-w-full left-1/2 transform -translate-x-1/2'
           priority
         />
       </section>
